@@ -1,5 +1,4 @@
-from helper import greet_user
+from helper import salutation
 
-greet_user("Caleb")
-
-greet_user("Nnamdi")
+salutation(True)
+salutation(False, "Caleb")
