@@ -1,4 +1,6 @@
-from helper import salutation
+from helper import get_user, interface_with_user
 
-salutation(True)
-salutation(False, "Caleb")
+user = get_user()
+
+interface_with_user(user)
+
